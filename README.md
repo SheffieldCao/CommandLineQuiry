@@ -81,3 +81,6 @@
 - ` tar -xzvf test.tar.gz ` 解压缩
   - -x或--extract或--get 从备份文件中还原文件。
 
+### 2.3 Wget 下载文件
+
+- ` wget -O [NAME] [URL] ` **下载到指定名称**
