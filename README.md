@@ -84,3 +84,13 @@
 ### 2.3 Wget 下载文件
 
 - ` wget -O [NAME] [URL] ` **下载到指定名称**
+
+- ` wget –c [URL] ` **继续未完成的下载**
+
+- ` wget –b [URL] ` **后台进程下载**
+
+- ` wget –I URL.txt ` **下载指定文件中的URL全部文件**
+    ```shell
+    vi url.txt
+    wget -I url.txt
+    ```
