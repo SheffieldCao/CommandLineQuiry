@@ -2,7 +2,7 @@
 
 ## 1 Miniconda
 
-[1.1 conda环境操作及pip安装](./mini_conda/mini_conda.md)
+### [1.1 conda环境操作及pip安装](./mini_conda/mini_conda.md)
 
 ## 2 Linux 命令
 
