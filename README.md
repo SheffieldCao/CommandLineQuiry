@@ -11,3 +11,4 @@
 ### [2.3 文件压缩与解压缩](./linux_command/zip%26tar.md)
 ### [2.4 wget 文件下载](./linux_command/wget.md)
 ### [2.5 rm 文件移除](./linux_command/rm.md)
+### [2.6 pkill 进程管理](./linux_command/pkill.md)
