@@ -19,3 +19,13 @@
 - ` wget --reject=png [URL] ` **不下载某一类文件**
 
 - ` wget --ftp-user=[USER] --ftp-password=[PASSWORD] [URL] ` **使用FTP登录并下载**
+
+- **保存登录信息并下载**
+    ```shell
+    # 保存指定 URL 登录信息
+    wget --keep-session-cookies --save-cookies=cookies.txt --post-data 'username=[USRNAME]&password=[PASSWORD]&submit=Login' [URL]
+    ```
+    ```shell
+    # 下载指定 URL 内容
+    wget --load-cookies cookies.txt --content-disposition [URL]
+    ```
